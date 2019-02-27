@@ -1,0 +1,9 @@
+git add .
+
+git commit -m "Added go-mongo buildpack"
+
+git push
+
+jx edit buildpack \
+    -u https://github.com/$GH_USER/jenkins-x-kubernetes \
+    -r master -b

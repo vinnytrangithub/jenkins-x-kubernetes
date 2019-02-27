@@ -1,0 +1,4 @@
+echo "REPLACE_ME_APP_NAME-db:
+  replicaSet:
+    enabled: true
+" | tee -a packs/go-mongo/charts/values.yaml
